@@ -1,0 +1,156 @@
+<svg width="320" height="320" viewBox="0 0 320 320"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0B1120"/>
+<stop offset="100%" stop-color="#111827"/>
+</linearGradient>
+
+<linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#00E5FF"/>
+<stop offset="100%" stop-color="#7C3AED"/>
+</linearGradient>
+
+<filter id="glow">
+
+<feGaussianBlur stdDeviation="6" result="blur"/>
+
+<feMerge>
+
+<feMergeNode in="blur"/>
+
+<feMergeNode in="SourceGraphic"/>
+
+</feMerge>
+
+</filter>
+
+</defs>
+
+<rect
+width="320"
+height="320"
+rx="45"
+fill="url(#bg)"/>
+
+<circle
+
+cx="160"
+
+cy="160"
+
+r="105"
+
+fill="none"
+
+stroke="url(#neon)"
+
+stroke-width="2"
+
+stroke-dasharray="12 10">
+
+<animateTransform
+
+attributeName="transform"
+
+type="rotate"
+
+from="0 160 160"
+
+to="360 160 160"
+
+dur="25s"
+
+repeatCount="indefinite"/>
+
+</circle>
+
+<circle
+
+cx="160"
+
+cy="160"
+
+r="78"
+
+fill="none"
+
+stroke="#00E5FF"
+
+stroke-opacity=".25"
+
+stroke-width="1"/>
+
+<path
+
+d="M160 55
+L160 265"
+
+stroke="#00E5FF"
+
+stroke-opacity=".15"/>
+
+<path
+
+d="M55 160
+L265 160"
+
+stroke="#00E5FF"
+
+stroke-opacity=".15"/>
+
+<text
+
+x="95"
+
+y="205"
+
+font-size="95"
+
+font-family="Segoe UI"
+
+font-weight="700"
+
+fill="url(#neon)"
+
+filter="url(#glow)">
+
+KG
+
+<animate
+
+attributeName="opacity"
+
+values="0.75;1;0.75"
+
+dur="2s"
+
+repeatCount="indefinite"/>
+
+</text>
+
+<circle
+
+cx="160"
+
+cy="55"
+
+r="4"
+
+fill="#00E5FF">
+
+<animateMotion
+
+dur="6s"
+
+repeatCount="indefinite"
+
+path="M0 0
+A105 105 0 1 1 0 210
+A105 105 0 1 1 0 0"/>
+
+</circle>
+
+</svg>
