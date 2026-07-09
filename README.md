@@ -2,11 +2,7 @@
 
 # <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=42&duration=2500&pause=800&color=00E5FF&center=true&vCenter=true&width=900&lines=KINGGESTER;Software+Engineer;Backend+Developer;Artificial+Intelligence;Machine+Learning" />
 
-<p align="center">
 
-<img src="./assets/logo.svg" width="160">
-
-</p>
 
 <br>
 
