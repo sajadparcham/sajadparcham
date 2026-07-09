@@ -1,0 +1,317 @@
+<svg width="850" height="560" viewBox="0 0 850 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .mono { font-family: 'Consolas', 'Menlo', 'Monaco', 'Courier New', monospace; }
+      .title { font-family: 'Consolas', 'Menlo', 'Monaco', 'Courier New', monospace; font-weight: 700; letter-spacing: 1px; }
+    </style>
+
+    <filter id="blueGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <linearGradient id="panelStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#8A2BE2"/>
+    </linearGradient>
+
+    <linearGradient id="scanBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00E5FF" stop-opacity="1"/>
+      <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#00E5FF" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+
+    <!-- whoami -->
+    <clipPath id="clipWhoCmd">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;90;90;0" keyTimes="0;0.25;0.82;1" dur="5s" begin="0s;statusCycle.end" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipWho1">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;110;110;0" keyTimes="0;0.28;0.82;1" dur="5s" begin="0.5s;statusCycle.end+0.5s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipWho2">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;180;180;0" keyTimes="0;0.28;0.82;1" dur="5s" begin="1s;statusCycle.end+1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipWho3">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;150;150;0" keyTimes="0;0.28;0.82;1" dur="5s" begin="1.5s;statusCycle.end+1.5s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipWho4">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;130;130;0" keyTimes="0;0.28;0.82;1" dur="5s" begin="2s;statusCycle.end+2s" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <!-- stack -->
+    <clipPath id="clipStackCmd">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;80;80;0" keyTimes="0;0.22;0.84;1" dur="6s" begin="5.4s;statusCycle.end+5.4s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipStack1">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;70;70;0" keyTimes="0;0.22;0.84;1" dur="6s" begin="5.9s;statusCycle.end+5.9s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipStack2">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;30;30;0" keyTimes="0;0.22;0.84;1" dur="6s" begin="6.35s;statusCycle.end+6.35s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipStack3">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;135;135;0" keyTimes="0;0.22;0.84;1" dur="6s" begin="6.8s;statusCycle.end+6.8s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipStack4">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;65;65;0" keyTimes="0;0.22;0.84;1" dur="6s" begin="7.25s;statusCycle.end+7.25s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipStack5">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;115;115;0" keyTimes="0;0.22;0.84;1" dur="6s" begin="7.7s;statusCycle.end+7.7s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipStack6">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;60;60;0" keyTimes="0;0.22;0.84;1" dur="6s" begin="8.15s;statusCycle.end+8.15s" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <!-- projects -->
+    <clipPath id="clipProjectsCmd">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;110;110;0" keyTimes="0;0.2;0.86;1" dur="7s" begin="12s;statusCycle.end+12s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipProjects1">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;185;185;0" keyTimes="0;0.2;0.86;1" dur="7s" begin="12.5s;statusCycle.end+12.5s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipProjects2">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;180;180;0" keyTimes="0;0.2;0.86;1" dur="7s" begin="13s;statusCycle.end+13s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipProjects3">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;145;145;0" keyTimes="0;0.2;0.86;1" dur="7s" begin="13.5s;statusCycle.end+13.5s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipProjects4">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;85;85;0" keyTimes="0;0.2;0.86;1" dur="7s" begin="14s;statusCycle.end+14s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipProjects5">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;130;130;0" keyTimes="0;0.2;0.86;1" dur="7s" begin="14.5s;statusCycle.end+14.5s" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <!-- status -->
+    <clipPath id="clipStatusCmd">
+      <rect x="0" y="0" width="0" height="24">
+        <animate id="statusCycle" attributeName="width" values="0;90;90;0" keyTimes="0;0.2;0.88;1" dur="6s" begin="19.6s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipStatus1">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;70;70;0" keyTimes="0;0.2;0.88;1" dur="6s" begin="20.1s;statusCycle.begin+0.5s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipStatus2">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;95;95;0" keyTimes="0;0.2;0.88;1" dur="6s" begin="20.55s;statusCycle.begin+0.95s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipStatus3">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;95;95;0" keyTimes="0;0.2;0.88;1" dur="6s" begin="21s;statusCycle.begin+1.4s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipStatus4">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;120;120;0" keyTimes="0;0.2;0.88;1" dur="6s" begin="21.45s;statusCycle.begin+1.85s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipStatus5">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;95;95;0" keyTimes="0;0.2;0.88;1" dur="6s" begin="21.9s;statusCycle.begin+2.3s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipStatus6">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" values="0;115;115;0" keyTimes="0;0.2;0.88;1" dur="6s" begin="22.35s;statusCycle.begin+2.75s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="850" height="560" rx="18" fill="#05070B"/>
+  <rect width="850" height="560" rx="18" fill="url(#grid)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 28;0 0" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="22" y="22" width="806" height="516" rx="16" fill="#0A0D12" fill-opacity="0.92" stroke="url(#panelStroke)" stroke-opacity="0.55"/>
+
+  <!-- Header -->
+  <g transform="translate(40 42)">
+    <circle cx="0" cy="0" r="5" fill="#FF5F56"/>
+    <circle cx="18" cy="0" r="5" fill="#FFBD2E"/>
+    <circle cx="36" cy="0" r="5" fill="#27C93F"/>
+    <text x="0" y="32" class="title" font-size="22" fill="#EAFBFF">KINGGESTER TERMINAL v2.7</text>
+    <text x="0" y="54" class="mono" font-size="12" fill="#8AB9C7">STATUS</text>
+    <circle cx="52" cy="50" r="4" fill="#22C55E" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="1;0.35;1" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="66" y="54" class="mono" font-size="12" fill="#D7F9FF">ONLINE</text>
+  </g>
+
+  <!-- Left terminal panel -->
+  <g transform="translate(48 105)">
+  <rect x="0" y="0" width="510" height="360" rx="12" fill="#06090D" stroke="#12303C" stroke-opacity="0.85"/>
+  <line x1="0" y1="42" x2="510" y2="42" stroke="#12303C" stroke-opacity="0.9"/>
+  <text x="18" y="27" font-family="monospace" font-size="12" fill="#6EDFFF">session://kinggester/profile</text>
+
+  <defs>
+    <!-- تعریف ClipPath برای هر دستور (این بخش حیاتی است) -->
+    <!-- هر clipPath یک مستطیل است که عرض آن از 0 به 100% می‌رسد -->
+    <clipPath id="clip-whoami">
+      <rect id="clip-rect-whoami" x="22" y="72" width="0" height="200">
+        <animate attributeName="width" from="0" to="500" dur="2.5s" begin="0s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    
+    <clipPath id="clip-stack">
+      <rect id="clip-rect-stack" x="22" y="72" width="0" height="200">
+        <animate attributeName="width" from="0" to="500" dur="2.5s" begin="6s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
+    <clipPath id="clip-projects">
+      <rect id="clip-rect-projects" x="22" y="72" width="0" height="200">
+        <animate attributeName="width" from="0" to="500" dur="2.5s" begin="12s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
+    <clipPath id="clip-status">
+      <rect id="clip-rect-status" x="22" y="72" width="0" height="200">
+        <animate attributeName="width" from="0" to="500" dur="2.5s" begin="18s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+  </defs>
+
+  <style>
+    /* انیمیشن کل گروه‌ها برای ظاهر و غیب شدن دوره‌ای */
+    .cmd-group { opacity: 0; animation: sequenceCycle 24s infinite; }
+    .who-group { animation-delay: 0s; }
+    .stack-group { animation-delay: 6s; }
+    .proj-group { animation-delay: 12s; }
+    .stat-group { animation-delay: 18s; }
+
+    @keyframes sequenceCycle {
+      0%, 15% { opacity: 1; } /* زمان تایپ و خواندن */
+      25%, 100% { opacity: 0; } /* زمان پاک شدن و انتظار برای دستور بعدی */
+    }
+  </style>
+
+  <!-- whoami -->
+  <g class="cmd-group who-group">
+    <g clip-path="url(#clip-whoami)">
+      <text x="22" y="105" font-family="monospace" font-size="18" fill="#00E5FF">&gt; whoami</text>
+      <text x="22" y="139" font-family="monospace" font-size="18" fill="#F2FCFF">KingGester</text>
+      <text x="22" y="171" font-family="monospace" font-size="18" fill="#F2FCFF">Software Engineer</text>
+      <text x="22" y="203" font-family="monospace" font-size="18" fill="#F2FCFF">Backend Developer</text>
+      <text x="22" y="235" font-family="monospace" font-size="18" fill="#F2FCFF">AI Enthusiast</text>
+    </g>
+  </g>
+
+  <!-- stack -->
+  <g class="cmd-group stack-group">
+    <g clip-path="url(#clip-stack)">
+      <text x="22" y="105" font-family="monospace" font-size="18" fill="#00E5FF">&gt; stack</text>
+      <text x="22" y="139" font-family="monospace" font-size="18" fill="#F2FCFF">Python, C#, ASP.NET Core</text>
+      <text x="22" y="171" font-family="monospace" font-size="18" fill="#F2FCFF">Docker, PostgreSQL, Linux</text>
+    </g>
+  </g>
+
+  <!-- projects -->
+  <g class="cmd-group proj-group">
+    <g clip-path="url(#clip-projects)">
+      <text x="22" y="105" font-family="monospace" font-size="18" fill="#00E5FF">&gt; projects</text>
+      <text x="22" y="139" font-family="monospace" font-size="18" fill="#F2FCFF">Predictive Maintenance</text>
+      <text x="22" y="171" font-family="monospace" font-size="18" fill="#F2FCFF">Spacecraft Prediction</text>
+      <text x="22" y="203" font-family="monospace" font-size="18" fill="#F2FCFF">Product Matcher</text>
+      <text x="22" y="235" font-family="monospace" font-size="18" fill="#F2FCFF">REST API, Flutter Planner</text>
+    </g>
+  </g>
+
+  <!-- status -->
+  <g class="cmd-group stat-group">
+    <g clip-path="url(#clip-status)">
+      <text x="22" y="105" font-family="monospace" font-size="18" fill="#00E5FF">&gt; status</text>
+      <text x="22" y="139" font-family="monospace" font-size="18" fill="#22C55E">ONLINE</text>
+      <text x="22" y="171" font-family="monospace" font-size="16" fill="#84DFFF">Last Commit: 2 hours ago</text>
+      <text x="22" y="203" font-family="monospace" font-size="16" fill="#84DFFF">Next Goal: AI Engineer</text>
+    </g>
+  </g>
+
+  <!-- blinking cursor -->
+  <rect x="22" y="95" width="10" height="20" fill="#00E5FF">
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
+  </rect>
+  </g>
+
+  <!-- Right HUD -->
+  <g transform="translate(584 105)">
+    <path d="M0 16 L16 0 H222 L238 16 V344 L222 360 H16 L0 344 Z" fill="#081018" stroke="#8A2BE2" stroke-opacity="0.75"/>
+    <text x="22" y="34" class="title" font-size="18" fill="#E8F7FF">MISSION</text>
+
+    <rect x="22" y="52" width="170" height="10" rx="3" fill="#13222B"/>
+    <rect x="22" y="52" width="170" height="10" rx="3" fill="#00E5FF" opacity="0.9">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="2.2s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="22" y="94" class="mono" font-size="16" fill="#22C55E">ONLINE</text>
+    <text x="22" y="132" class="mono" font-size="16" fill="#DDF8FF">Earth</text>
+    <text x="22" y="170" class="mono" font-size="16" fill="#DDF8FF">Backend</text>
+    <text x="22" y="208" class="mono" font-size="16" fill="#DDF8FF">AI</text>
+    <text x="22" y="246" class="mono" font-size="16" fill="#DDF8FF">Open Source</text>
+
+    <line x1="22" y1="274" x2="206" y2="274" stroke="#1D3F4C"/>
+    <text x="22" y="304" class="mono" font-size="12" fill="#79D8FF">HUD_STATUS :: ACTIVE</text>
+    <text x="22" y="326" class="mono" font-size="12" fill="#79D8FF">SIGNAL :: STABLE</text>
+  </g>
+
+  <!-- Bottom scanner -->
+  <g transform="translate(48 488)">
+    <text x="0" y="0" class="mono" font-size="12" fill="#65DFFF">SCAN LINE</text>
+    <rect x="0" y="14" width="510" height="4" rx="2" fill="#10222B"/>
+    <rect x="0" y="14" width="120" height="4" rx="2" fill="url(#scanBar)" filter="url(#blueGlow)">
+      <animate attributeName="x" values="0;390;0" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

@@ -98,9 +98,10 @@ x="82"
 y="205"
 font-size="28"
 font-family="Consolas"
-fill="#ffffff">
+fill="#00E5FF">
 
-Software Engineer
+Artificial Intelligence
+
 
 </text>
 
@@ -111,7 +112,7 @@ font-size="22"
 font-family="Consolas"
 fill="#00E5FF">
 
-Artificial Intelligence
+Software Engineer
 
 <animate
 attributeName="opacity"

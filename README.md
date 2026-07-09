@@ -69,6 +69,13 @@ Mission     : Build intelligent software
 </p>
 
 ---
+## 💻 System Terminal
+<!-- این بخش رو به README اضافه کن -->
+<p align="center">
+  <img src="./assets/terminal.svg" width="100%" alt="Developer Terminal" />
+</p>
+
+---
 
 # ⚡ Status
 
