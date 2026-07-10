@@ -25,13 +25,12 @@
 ```
 
 ```text
-Name        : Sajad Parcham
+Name        : Sajjad Parcham
 Username    : KingGester
 Role        : Software Engineering Student
 Focus       : Backend Development
 Interest    : Artificial Intelligence
-Learning    : ASP.NET Core • Docker • PostgreSQL
-Mission     : Build intelligent software
+Learning    : Linux • Docker • PostgreSQL 
 ```
 
 ---
@@ -42,7 +41,6 @@ Mission     : Build intelligent software
 - 🔹 Learning Distributed Systems
 - 🔹 Creating AI Projects
 - 🔹 Contributing to Open Source
-- 🔹 Preparing for AI Engineering Career
 
 ---
 
