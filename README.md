@@ -79,23 +79,9 @@ Mission     : Build intelligent software
 
 ---
 
-# ⚡ Status
+<p align="center">
 
-```text
-SYSTEM STATUS
+<img src="./assets/tech-stack.svg" width="100%">
 
-████████████████████
+</p>
 
-ONLINE
-
-Mission:
-Build Intelligent Systems
-
-Location:
-Earth 🌍
-
-Target:
-AI Engineer
-```
-
----

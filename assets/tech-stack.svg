@@ -1,0 +1,261 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520"
+xmlns="http://www.w3.org/2000/svg">
+
+<style>
+
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap");
+
+text{
+
+font-family:'JetBrains Mono',monospace;
+
+}
+
+.title{
+
+font-size:34px;
+
+font-weight:700;
+
+fill:white;
+
+}
+
+.sub{
+
+font-size:16px;
+
+fill:#00E5FF;
+
+}
+
+.card{
+
+fill:#101827;
+
+stroke:#1F2937;
+
+stroke-width:2;
+
+rx:18;
+
+transition:.3s;
+
+}
+
+.tech{
+
+fill:white;
+
+font-size:18px;
+
+}
+
+.small{
+
+fill:#7DD3FC;
+
+font-size:13px;
+
+}
+
+.bar{
+
+fill:#00E5FF;
+
+}
+
+</style>
+
+<rect
+width="1200"
+height="520"
+fill="#070B13"/>
+
+<text
+x="70"
+y="70"
+class="title">
+
+TECH STACK
+
+</text>
+
+<text
+x="70"
+y="98"
+class="sub">
+
+Current Technologies
+
+</text>
+
+<rect class="card" x="70" y="140" width="250" height="120"/>
+
+<text class="tech" x="95" y="190">
+
+🐍 Python
+
+</text>
+
+<text class="small" x="95" y="220">
+
+Machine Learning
+
+</text>
+
+<rect class="bar"
+x="95"
+y="235"
+width="180"
+height="6"
+rx="4"/>
+
+<rect class="card" x="360" y="140" width="250" height="120"/>
+
+<text class="tech" x="385" y="190">
+
+⚙ ASP.NET Core
+
+</text>
+
+<text class="small" x="385" y="220">
+
+Backend Development
+
+</text>
+
+<rect class="bar"
+x="385"
+y="235"
+width="180"
+height="6"
+rx="4"/>
+
+<rect class="card" x="650" y="140" width="250" height="120"/>
+
+<text class="tech" x="675" y="190">
+
+🐳 Docker
+
+</text>
+
+<text class="small" x="675" y="220">
+
+Containers
+
+</text>
+
+<rect class="bar"
+x="675"
+y="235"
+width="180"
+height="6"
+rx="4"/>
+
+<rect class="card" x="940" y="140" width="190" height="120"/>
+
+<text class="tech" x="965" y="190">
+
+🐘 PostgreSQL
+
+</text>
+
+<text class="small" x="965" y="220">
+
+Database
+
+</text>
+
+<rect class="bar"
+x="965"
+y="235"
+width="120"
+height="6"
+rx="4"/>
+
+<rect class="card" x="70" y="310" width="250" height="120"/>
+
+<text class="tech" x="95" y="360">
+
+📱 Flutter
+
+</text>
+
+<text class="small" x="95" y="390">
+
+Cross Platform
+
+</text>
+
+<rect class="bar"
+x="95"
+y="405"
+width="160"
+height="6"
+rx="4"/>
+
+<rect class="card" x="360" y="310" width="250" height="120"/>
+
+<text class="tech" x="385" y="360">
+
+🐧 Linux
+
+</text>
+
+<text class="small" x="385" y="390">
+
+Development
+
+</text>
+
+<rect class="bar"
+x="385"
+y="405"
+width="170"
+height="6"
+rx="4"/>
+
+<rect class="card" x="650" y="310" width="250" height="120"/>
+
+<text class="tech" x="675" y="360">
+
+🌱 Git
+
+</text>
+
+<text class="small" x="675" y="390">
+
+Version Control
+
+</text>
+
+<rect class="bar"
+x="675"
+y="405"
+width="165"
+height="6"
+rx="4"/>
+
+<rect class="card" x="940" y="310" width="190" height="120"/>
+
+<text class="tech" x="965" y="360">
+
+🤖 AI
+
+</text>
+
+<text class="small" x="965" y="390">
+
+Deep Learning
+
+</text>
+
+<rect class="bar"
+x="965"
+y="405"
+width="120"
+height="6"
+rx="4"/>
+
+</svg>
