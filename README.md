@@ -29,7 +29,7 @@
 
 ```text
 Name        : Sajjad Parcham
-Username    : sajjadparcham
+Username    : sajadparcham
 Role        : Software Engineering Student
 Focus       : Backend Development
 Interest    : Artificial Intelligence
