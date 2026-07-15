@@ -12,6 +12,7 @@
 
 [![Profile Views](https://komarev.com/ghpvc/?username=sajjadparcham&style=for-the-badge&color=blueviolet)](https://github.com/sajjadparcham)
 [![Followers](https://img.shields.io/github/followers/sajjadparcham?style=for-the-badge)](https://github.com/sajjadparcham?tab=followers)
+
 [![Stars](https://img.shields.io/github/stars/sajjadparcham?style=for-the-badge)](https://github.com/sajjadparcham)
 
 </div>
