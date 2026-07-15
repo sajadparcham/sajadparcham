@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=42&duration=2500&pause=800&color=00E5FF&center=true&vCenter=true&width=900&lines=sajjad parcham;Software+Engineer;Backend+Developer;Artificial+Intelligence;Machine+Learning" />
+# <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=42&duration=2500&pause=800&color=00E5FF&center=true&vCenter=true&width=900&lines=sajjadparcham;Software+Engineer;Backend+Developer;Artificial+Intelligence;Machine+Learning" />
 
 
 
@@ -10,9 +10,9 @@
 
 <br>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=sajjad parcham&style=for-the-badge&color=blueviolet)](https://github.com/sajjad parcham)
-[![Followers](https://img.shields.io/github/followers/sajjad parcham?style=for-the-badge)](https://github.com/sajjad parcham?tab=followers)
-[![Stars](https://img.shields.io/github/stars/sajjad parcham?style=for-the-badge)](https://github.com/sajjad parcham)
+[![Profile Views](https://komarev.com/ghpvc/?username=sajjadparcham&style=for-the-badge&color=blueviolet)](https://github.com/sajjadparcham)
+[![Followers](https://img.shields.io/github/followers/sajjadparcham?style=for-the-badge)](https://github.com/sajjadparcham?tab=followers)
+[![Stars](https://img.shields.io/github/stars/sajjadparcham?style=for-the-badge)](https://github.com/sajjadparcham)
 
 </div>
 
@@ -26,7 +26,7 @@
 
 ```text
 Name        : Sajjad Parcham
-Username    : sajjad parcham
+Username    : sajjadparcham
 Role        : Software Engineering Student
 Focus       : Backend Development
 Interest    : Artificial Intelligence
@@ -54,7 +54,7 @@ Learning    : Linux • Docker • PostgreSQL
 
 <p align="center">
 
-<a href="https://github.com/sajjad parcham">
+<a href="https://github.com/sajjadparcham">
 <img src="https://skillicons.dev/icons?i=github" />
 </a>
 
