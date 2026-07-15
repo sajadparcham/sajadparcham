@@ -182,7 +182,7 @@
     <circle cx="0" cy="0" r="5" fill="#FF5F56"/>
     <circle cx="18" cy="0" r="5" fill="#FFBD2E"/>
     <circle cx="36" cy="0" r="5" fill="#27C93F"/>
-    <text x="0" y="32" class="title" font-size="22" fill="#EAFBFF">KINGGESTER TERMINAL v2.7</text>
+    <text x="0" y="32" class="title" font-size="22" fill="#EAFBFF">sajjad parcham TERMINAL v2.7</text>
     <text x="0" y="54" class="mono" font-size="12" fill="#8AB9C7">STATUS</text>
     <circle cx="52" cy="50" r="4" fill="#22C55E" filter="url(#softGlow)">
       <animate attributeName="opacity" values="1;0.35;1" dur="1.2s" repeatCount="indefinite"/>
@@ -194,7 +194,7 @@
   <g transform="translate(48 105)">
   <rect x="0" y="0" width="510" height="360" rx="12" fill="#06090D" stroke="#12303C" stroke-opacity="0.85"/>
   <line x1="0" y1="42" x2="510" y2="42" stroke="#12303C" stroke-opacity="0.9"/>
-  <text x="18" y="27" font-family="monospace" font-size="12" fill="#6EDFFF">session://kinggester/profile</text>
+  <text x="18" y="27" font-family="monospace" font-size="12" fill="#6EDFFF">session://sajjad parcham/profile</text>
 
   <defs>
     <!-- تعریف ClipPath برای هر دستور (این بخش حیاتی است) -->
@@ -242,7 +242,7 @@
   <g class="cmd-group who-group">
     <g clip-path="url(#clip-whoami)">
       <text x="22" y="105" font-family="monospace" font-size="18" fill="#00E5FF">&gt; whoami</text>
-      <text x="22" y="139" font-family="monospace" font-size="18" fill="#F2FCFF">KingGester</text>
+      <text x="22" y="139" font-family="monospace" font-size="18" fill="#F2FCFF">sajjad parcham</text>
       <text x="22" y="171" font-family="monospace" font-size="18" fill="#F2FCFF">Software Engineer</text>
       <text x="22" y="203" font-family="monospace" font-size="18" fill="#F2FCFF">Backend Developer</text>
       <text x="22" y="235" font-family="monospace" font-size="18" fill="#F2FCFF">AI Enthusiast</text>
