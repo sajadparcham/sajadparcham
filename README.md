@@ -10,16 +10,12 @@
 
 <br>
 
-<<<<<<< HEAD
+
 [![Profile Views](https://komarev.com/ghpvc/?username=sajadparcham&style=for-the-badge&color=blueviolet)](https://github.com/sajadparcham)<!-- این بخش رو به README اضافه کن -->
 [![Followers](https://img.shields.io/github/followers/sajadparcham?style=for-the-badge)](https://github.com/sajadparcham?tab=followers)<!-- این بخش رو به README اضافه کن -->
 [![Stars](https://img.shields.io/github/stars/sajadparcham?style=for-the-badge)](https://github.com/sajadparcham)<!-- این بخش رو به README اضافه کن -->
 =======
-[![Profile Views](https://komarev.com/ghpvc/?username=sajjadparcham&style=for-the-badge&color=blueviolet)](https://github.com/sajjadparcham)
-[![Followers](https://img.shields.io/github/followers/sajjadparcham?style=for-the-badge)](https://github.com/sajjadparcham?tab=followers)
 
-[![Stars](https://img.shields.io/github/stars/sajjadparcham?style=for-the-badge)](https://github.com/sajjadparcham)
->>>>>>> cc6f30aa0c86cd52a00e69454fd2149526142860
 
 </div>
 
