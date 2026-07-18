@@ -207,6 +207,11 @@ fill="#00E5FF">
 
 Artificial Intelligence
 
+<animate
+attributeName="opacity"
+values="1;0;0;"
+dur="5s"
+repeatCount="indefinite"/>
 
 </text>
 
@@ -221,8 +226,8 @@ Software Engineer
 
 <animate
 attributeName="opacity"
-values="0;1;0;1"
-dur="4s"
+values="0;1;0;"
+dur="5s"
 repeatCount="indefinite"/>
 
 </text>
@@ -238,7 +243,7 @@ Backend Development
 
 <animate
 attributeName="opacity"
-values="1;0;1"
+values="0;0;1"
 dur="5s"
 repeatCount="indefinite"/>
 
